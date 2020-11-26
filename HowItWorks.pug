@@ -1,0 +1,32 @@
+html
+    head
+        link(rel="stylesheet", href="TopNavigation.css")
+    div(class='top')
+        a(href='/Home') Home
+        a(href='/AboutUs') About Us
+        a(href='/HowItWorks') How It Works
+        a(href='/ContactUs') Contact Us
+        a(href='/Login') Login
+        a(href='/Register') Sign Up
+    body
+        p
+            | Simple Steps for registration:
+            ol
+                li Go to the 
+                    a(href='/Register') Signup section
+                li Select Startup if you are looking to set up one, otherwise select Mentor
+                li Enter your primary details and click on &quot;Submit&quot;
+                li An OTP will be sent your phone and email which you have to validate on the next page.
+                li After the validation mention your desired username and password.
+                li Complete your profile by filling the professional details.
+        p
+            | After the registration is completed you can go to 
+            a(href='/Login') Login section
+            |  and login into your account using your username and password.
+            br
+            | There are 4 modules provided for an account which will open after you login.
+            ol
+                li Dashboard: Where you you can check recent feed and recently contacted people.
+                li Profile: Where you can store your personal details and upload your CV/resume
+                li Discussion Forum: Where you can post different questions and read previous discussions
+                li Contacts or Requests: Where you can request for personally contacting mentors through phone or email

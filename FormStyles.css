@@ -1,0 +1,32 @@
+body
+{
+    background-color: coral;
+}
+table
+{
+    border: 2px solid black;
+    border-radius: 2rem 2rem 2rem 2rem;
+}
+tr
+{
+    text-align: center;
+}
+input
+{
+    height: 40px;
+    width: 300px;
+    border-radius: 2rem;
+}
+button
+{
+    height: 40px;
+    width: 200px;
+    background-color: blue;
+    color: cornsilk;
+    border-radius: 2rem;
+}
+button:hover
+{
+    background-color: white;
+    color: brown;
+}

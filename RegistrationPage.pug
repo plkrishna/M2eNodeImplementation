@@ -1,0 +1,30 @@
+html
+    head
+        title Registration Page
+        link(rel="stylesheet", href="/FormStyles.css")
+    body
+        form(action="/otpVerification" , method="get")
+            table(align="center", cellspacing=30)
+                tr
+                    th(colspan='2') Primary Details
+                tr
+                    td First Name*
+                    td
+                        input(type='text', name='FirstName')
+                tr
+                    td Last Name*
+                    td
+                        input(type='text', name='LastName')
+                tr
+                    td Email ID*
+                    td
+                        input(type='text', name='Mail')
+                        p(id='MailHelp', align='left')   Hello
+                tr
+                    td Phone No*
+                    td
+                        input(type='text', name='Phone')
+                tr
+                    td
+                    td
+                        button(type="submit") Submit

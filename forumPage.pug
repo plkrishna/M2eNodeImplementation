@@ -1,0 +1,15 @@
+html
+    head
+        title Forum Page
+        script(type='text/javascript').
+            var xhttp=new XMLHttpRequest();
+            xhttp.onreadystatechange=function(){
+                if(this.readyState==4&&this.status==200){
+                    var qas=JSON.stringify(xhttp.responseText);
+                    document.write(qas);
+                }
+            };
+            xhttp.open('GET','http://localhost:3000/forumExtraction');
+            xhttp.send();
+    body
+        p

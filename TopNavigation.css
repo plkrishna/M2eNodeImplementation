@@ -1,0 +1,19 @@
+.top {
+    background-color: deepskyblue;
+    overflow: hidden;
+}
+.top a{
+    color: black;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    font-size: large;
+}
+.top a:hover{
+    color: blanchedalmond;
+    background-color: darkblue;
+}
+body{
+    background-color: rgb(177, 161, 161);
+}
